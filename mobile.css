@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* Header */
+.header {
+    padding: 10px;
+    background-color: #0060df;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header2 {
+    padding: 10px;
+    background: #086ef5;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header2 h1 {
+    text-align: center;
+    margin-top: 170px;
+}
+
+/* Header Section */
+.header1 {
+    background-color: #083c74;
+
+}
+
+.logo1 {
+    width: 100%;
+    height: 5%;
+}
+
+.header .logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header .logo .b {
+    padding: 10px;
+    margin-bottom: 10%;
+}
+
+.lang-switch {
+    background: white;
+    color: #0a3a78;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    height: 20px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
+.header .lang-switch a {
+    color: blue;
+}
+
+/* Container */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background: linear-gradient(135deg, #7b61ff, #6e9eff);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img,
+.card-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Different card colors */
+.purple {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+
+.pink {
+    background: linear-gradient(184deg, rgba(0, 13, 79, 1) 0%, rgba(72, 0, 255, 1) 100%);
+}
+
+
+.blue {
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+}
+
+.green {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+.warm-flame {
+    background-image: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.Tempting-Azure {
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(58, 93, 158, 1) 44%, rgba(0, 212, 255, 1) 100%);
+}
+
+.returns {
+    background: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
+
+
+}
+
+.refunds {
+    background: linear-gradient(90deg, rgba(5, 5, 80, 1) 0%, rgba(70, 110, 180, 1) 45%, rgba(0, 255, 170, 1) 90%);
+
+}
+
+.three {
+    background: linear-gradient(90deg, rgba(10, 10, 60, 1) 0%, rgba(40, 90, 160, 1) 50%, rgba(0, 220, 200, 1) 100%);
+}
+
+.green {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+
+
+
+/*home page*/
+
+.home-main {
+    background-color: #0a3a78;
+}
+
+img {
+    width: 100%;
+    height: 550px;
+}
+
+/* Button Section */
+.button-section {
+    background-color: #083c74;
+    padding: 450px 20px;
+    text-align: center;
+
+}
+
+.click-btn {
+    background-color: #fff;
+    color: #083c74;
+    padding: 100px 80px;
+    border-radius: 10px;
+    font-size: 4rem;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-top: 200px;
+}
+
+.click-btn:hover {
+    background-color: #4a5ffc;
+    color: #fff;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo p {
+    margin-left: 50px;
+    margin-top: -33px;
+}
+
+/* Footer */
+.footer {
+    background-color: #0a3a78;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    .click-btn {
+        font-size: 1rem;
+        padding: 12px 30px;
+    }
+
+    .logo1 {
+        width: 100%;
+    }
+}
+
+
+.select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
